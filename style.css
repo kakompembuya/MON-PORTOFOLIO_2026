@@ -75,6 +75,58 @@ a.active::after{
     width: 100%;
 }
 
+.Hero {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+    margin: 10rem 2rem;
+}
+
+.Hero img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 300px;
+    border: 8px solid var(--violet-doux);
+}
+.Hero h1{
+    color: var(--violet-doux);
+    font-size:4rem;
+    font-weight: 7OO;
+    margin-bottom: 1.2rem;
+}
+.Hero a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: var(--violet-doux);
+    color: white;
+    padding: 8px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.Hero a:hover{
+    background-color: var(--violet-fonce);
+    transform: translateY(-3px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
