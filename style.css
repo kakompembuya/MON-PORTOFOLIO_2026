@@ -139,15 +139,73 @@ section h2::after {
     margin: 1.2rem auto;
     border-radius: 2px;
 
-}
-.apropos p {
+}section p {
     margin-bottom: 2rem;
     color: var(--gris-tres-fonce);;
     font-size: 1.3rem;
 }
+.competences table{
+    width: 90%;
+    margin: 0  auto;
+    border-collapse: collapse;
+    background-color: #FFF;
+    box-shadow: 0 5px 15 px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    overflow: hidden;
+}
 
+.competences table th, .competences table td{
+    padding: 15px;
+    width: 500px;
+}
 
+.competences table thead{
+    background-color: var(--violet-doux);
+    color: #eff;
+    text-transform: uppercase;
+}
+ .competences table body td{
+    border-bottom: 1px solid var(--gris-clair);
+ }
 
+ .competences table tbody tr::nth-child(aven) {
+    background-color: #f0f0f0;
+ }
+
+ .competences table tr {
+    transition: background-color 0.3s ease;
+ }
+
+ .competences table tr:hover{
+    background-color: var(--gris-clair);
+ }
+ .footer{
+    text-align: center;
+    margin-top: 3rem;
+    background-color: var(--violet-doux);
+    padding: 3rem;
+ }
+
+ footer p{
+    color: white;
+    margin-top: 1.2rem;
+ }
+ footer a {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: wheat;
+    margin: 0 10px;
+    transition: color 0.3s ease, trannsform 0.2s ease;
+ }
+
+ footer a:hover{
+    color: var(--orange-vif);
+    transform: translateY(-3px);
+ }
+
+ section tr{
+    text-align: left;
+ }
 
 
 
