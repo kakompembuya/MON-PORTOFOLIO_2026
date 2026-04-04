@@ -172,39 +172,31 @@ section h2::after {
     background-color: #f0f0f0;
  }
 
- .competences table tr {
-    transition: background-color 0.3s ease;
+ .competences table thead th {
+    text-align: left;
  }
-
- .competences table tr:hover{
-    background-color: var(--gris-clair);
- }
- .footer{
-    text-align: center;
+ footer{
     margin-top: 3rem;
     background-color: var(--violet-doux);
     padding: 3rem;
+    text-align: center;
  }
-
- footer p{
+ footer p {
     color: white;
-    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
  }
  footer a {
     display: inline-block;
     font-size: 1.6rem;
-    color: wheat;
+    color: white;
     margin: 0 10px;
-    transition: color 0.3s ease, trannsform 0.2s ease;
+    transition: color 0.3s ease , transform 0.2s ease;
  }
 
- footer a:hover{
+ footer a:hover {
     color: var(--orange-vif);
-    transform: translateY(-3px);
- }
+    transform: translateY( -3px);
 
- section tr{
-    text-align: left;
  }
 
 
