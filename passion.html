@@ -1,43 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>monportofiolo</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mes Passions - Mon Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header> 
         <div>
-            <a href="">Mon portofolio</a>
+            <a href="index.html">Mon portfolio</a>
         </div>
         <nav>
             <ul>
-
-                <li><a href="index.html" >Accueil</a></li>
+                <li><a href="index.html">Accueil</a></li>
                 <li><a href="projets.html">Projets</a></li>
-                <li><a href="passion.html"class="active">Passions</a></li>
+                <li><a href="passion.html" class="active">Passions</a></li>
                 <li><a href="divertissement.html">Divertissements</a></li>
-                <li><a href="contact.html">Conctat</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-
         </nav>
     </header>
+
     <main>
-        <h1>Voici Mes Passions.</h1>
+        <section class="projets-container">
+            <h1>Mes Passions</h1>
+            
+            <div class="projets-grid">
+                
+                <article class="projet-card">
+                    <div class="projet-image">
+                        <img src="images/develop.jpeg" alt="Développement Web">
+                    </div>
+                    <div class="projet-info">
+                        <h3>Développement Web</h3>
+                        <p>Créer des interfaces modernes et interactives est ce qui me motive au quotidien.</p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="#"><i class="fa-solid fa-code"></i> Apprendre</a>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Détails</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projet-card">
+                    <div class="projet-image">
+                        <img src="images/DESIN.jpeg" alt="Design UI/UX">
+                    </div>
+                    <div class="projet-info">
+                        <h3>Design UI/UX</h3>
+                        <p>Le plaisir de concevoir des maquettes épurées et centrées sur l'utilisateur sur Figma.</p>
+                        <div class="tags">
+                            <span>Figma</span>
+                            <span>Design</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="#"><i class="fa-solid fa-pen-nib"></i> Créer</a>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Voir</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projet-card">
+                    <div class="projet-image">
+                        <img src="images/photo.jpeg" alt="Photographie">
+                    </div>
+                    <div class="projet-info">
+                        <h3>Photographie</h3>
+                        <p>Capturer des moments uniques et jouer avec la lumière pour raconter des histoires.</p>
+                        <div class="tags">
+                            <span>Art</span>
+                            <span>Lumière</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="#"><i class="fa-solid fa-camera"></i> Galerie</a>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Portfolio</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projet-card">
+                    <div class="projet-image">
+                        <img src="images/AI.jpeg" alt="IA">
+                    </div>
+                    <div class="projet-info">
+                        <h3>IA & Futur</h3>
+                        <p>Explorer comment l'intelligence artificielle transforme notre façon de coder et de vivre.</p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>Data</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="#"><i class="fa-solid fa-microchip"></i> Explorer</a>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Veille</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <p>
-            © 2026 Elka. Tous droits réservés.
-        </p>
+    <footer class="footer">
+        <p>© 2026 Elka. Tous droits réservés.</p>
         <div>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-x-twitter"></i>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
     </footer>
 </body>
-</html>      
+</html>

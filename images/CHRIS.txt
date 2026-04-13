@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon porfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="">Mon porfolio</a>    
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projet.html" class="active">Projet</a></li>
+                <li><a href="passions.html">Passions</a></li>
+                <li><a href="divertissement.html">Divertissement</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Mes réalisations</h1>
+        </section>
+        <section>
+            <div>
+                <img src="Image/430dee7c12965d2ee88cbde0cdea7671.jpg" alt="">
+                <h2>Site E-commerce</h2>
+                <p>une boutique en ligne complète developpé avec HTML, CSS et javascrit</p>
+                <span>html</span>
+                <span>css</span>
+                <span>js</span>
+            </div>
+            <div>
+                <img src="Image/f37dce61c50136e8f7ee1f5fc46d47db.jpg" alt="">
+                <h2>Gestion de taches</h2>
+                <p>Application Web pour organiser ses projets quotidiens avec stockage local. </p>
+                <span>python</span>
+                <span>flask</span>
+            </div>
+            <div>
+                <img src="Image/946eed76eb96235677f9899984cff751.jpg" alt="">
+                <h2>Blog personnel</h2>
+                <p>projet en cours de migration vers laravel pour apprendre le backend.</p>
+                <span>PHP</span>
+                <span>laravel</span>
+            </div>
+            <div>
+                <img src="Image/de0c668e53f0393c7ec8c32aa210b7c4.jpg" alt="">
+                <h2>Dashboard d'analyse</h2>
+                <p>Visualisation de données dynamique avec python et la bibliothèque Matploitlib.</p>
+                <span>python</span>
+                <span>data</span>
+            </div>
+            <div>
+                <img src="Image/b5c26de164a40e31837507d98f9f38fb.jpg" alt="">
+                <h2>Application Metéo</h2>
+                <p>une application utilisant une API en temps réel pour afficher la metéo mondiale.</p>
+                <span>javascrit</span>
+                <span>API</span>
+            </div>
+            <div>
+                <img src="Image/17542b43a54165eb637c74ddc0dc1a18.jpg" alt="">
+                <h2>Maquette mobile UI</h2>
+                <p>Conception d'une interface utilisateur moderne pour une application de fitness</p>
+                <span>figma</span>
+                <span>design</span>
+            </div>
+        </section>
+    </main>
+    <footer>
+            <p>© 2026 CHRIS. Tous droit réservés</p>
+            <nav>
+                <a href=""><img src="Image/fb505b5450d59196c788d7a6405068bf.jpg" alt="" height="50" width="50"></a>
+                <a href=""><img src="Image/66713a96b9b21dffd3a85a5d748a3171.jpg" alt="" height="50" width="50"></a>
+                <a href=""><img src="Image/b268838fe5a0c0ca504c2fc103843ae3.jpg" alt="" height="50" width="50"></a>
+            </nav>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon porfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="">Mon porfolio</a>    
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projet.html" class="active">Projet</a></li>
+                <li><a href="passions.html">Passions</a></li>
+                <li><a href="divertissement.html">Divertissement</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Mes réalisations</h1>
+        </section>
+        <section>
+            <div>
+                <img src="Image/430dee7c12965d2ee88cbde0cdea7671.jpg" alt="">
+                <h2>Site E-commerce</h2>
+                <p>une boutique en ligne complète developpé avec HTML, CSS et javascrit</p>
+                <span>html</span>
+                <span>css</span>
+                <span>js</span>
+            </div>
+            <div>
+                <img src="Image/f37dce61c50136e8f7ee1f5fc46d47db.jpg" alt="">
+                <h2>Gestion de taches</h2>
+                <p>Application Web pour organiser ses projets quotidiens avec stockage local. </p>
+                <span>python</span>
+                <span>flask</span>
+            </div>
+            <div>
+                <img src="Image/946eed76eb96235677f9899984cff751.jpg" alt="">
+                <h2>Blog personnel</h2>
+                <p>projet en cours de migration vers laravel pour apprendre le backend.</p>
+                <span>PHP</span>
+                <span>laravel</span>
+            </div>
+            <div>
+                <img src="Image/de0c668e53f0393c7ec8c32aa210b7c4.jpg" alt="">
+                <h2>Dashboard d'analyse</h2>
+                <p>Visualisation de données dynamique avec python et la bibliothèque Matploitlib.</p>
+                <span>python</span>
+                <span>data</span>
+            </div>
+            <div>
+                <img src="Image/b5c26de164a40e31837507d98f9f38fb.jpg" alt="">
+                <h2>Application Metéo</h2>
+                <p>une application utilisant une API en temps réel pour afficher la metéo mondiale.</p>
+                <span>javascrit</span>
+                <span>API</span>
+            </div>
+            <div>
+                <img src="Image/17542b43a54165eb637c74ddc0dc1a18.jpg" alt="">
+                <h2>Maquette mobile UI</h2>
+                <p>Conception d'une interface utilisateur moderne pour une application de fitness</p>
+                <span>figma</span>
+                <span>design</span>
+            </div>
+        </section>
+    </main>
+    <footer>
+            <p>© 2026 CHRIS. Tous droit réservés</p>
+            <nav>
+                <a href=""><img src="Image/fb505b5450d59196c788d7a6405068bf.jpg" alt="" height="50" width="50"></a>
+                <a href=""><img src="Image/66713a96b9b21dffd3a85a5d748a3171.jpg" alt="" height="50" width="50"></a>
+                <a href=""><img src="Image/b268838fe5a0c0ca504c2fc103843ae3.jpg" alt="" height="50" width="50"></a>
+            </nav>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon porfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="">Mon porfolio</a>    
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projet.html" class="active">Projet</a></li>
+                <li><a href="passions.html">Passions</a></li>
+                <li><a href="divertissement.html">Divertissement</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Mes réalisations</h1>
+        </section>
+        <section>
+            <div>
+                <img src="Image/430dee7c12965d2ee88cbde0cdea7671.jpg" alt="">
+                <h2>Site E-commerce</h2>
+                <p>une boutique en ligne complète developpé avec HTML, CSS et javascrit</p>
+                <span>html</span>
+                <span>css</span>
+                <span>js</span>
+            </div>
+            <div>
+                <img src="Image/f37dce61c50136e8f7ee1f5fc46d47db.jpg" alt="">
+                <h2>Gestion de taches</h2>
+                <p>Application Web pour organiser ses projets quotidiens avec stockage local. </p>
+                <span>python</span>
+                <span>flask</span>
+            </div>
+            <div>
+                <img src="Image/946eed76eb96235677f9899984cff751.jpg" alt="">
+                <h2>Blog personnel</h2>
+                <p>projet en cours de migration vers laravel pour apprendre le backend.</p>
+                <span>PHP</span>
+                <span>laravel</span>
+            </div>
+            <div>
+                <img src="Image/de0c668e53f0393c7ec8c32aa210b7c4.jpg" alt="">
+                <h2>Dashboard d'analyse</h2>
+                <p>Visualisation de données dynamique avec python et la bibliothèque Matploitlib.</p>
+                <span>python</span>
+                <span>data</span>
+            </div>
+            <div>
+                <img src="Image/b5c26de164a40e31837507d98f9f38fb.jpg" alt="">
+                <h2>Application Metéo</h2>
+                <p>une application utilisant une API en temps réel pour afficher la metéo mondiale.</p>
+                <span>javascrit</span>
+                <span>API</span>
+            </div>
+            <div>
+                <img src="Image/17542b43a54165eb637c74ddc0dc1a18.jpg" alt="">
+                <h2>Maquette mobile UI</h2>
+                <p>Conception d'une interface utilisateur moderne pour une application de fitness</p>
+                <span>figma</span>
+                <span>design</span>
+            </div>
+        </section>
+    </main>
+    <footer>
+            <p>© 2026 CHRIS. Tous droit réservés</p>
+            <nav>
+                <a href=""><img src="Image/fb505b5450d59196c788d7a6405068bf.jpg" alt="" height="50" width="50"></a>
+                <a href=""><img src="Image/66713a96b9b21dffd3a85a5d748a3171.jpg" alt="" height="50" width="50"></a>
+                <a href=""><img src="Image/b268838fe5a0c0ca504c2fc103843ae3.jpg" alt="" height="50" width="50"></a>
+            </nav>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon porfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="">Mon porfolio</a>    
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projet.html" class="active">Projet</a></li>
+                <li><a href="passions.html">Passions</a></li>
+                <li><a href="divertissement.html">Divertissement</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Mes réalisations</h1>
+        </section>
+        <section>
+            <div>
+                <img src="Image/430dee7c12965d2ee88cbde0cdea7671.jpg" alt="">
+                <h2>Site E-commerce</h2>
+                <p>une boutique en ligne complète developpé avec HTML, CSS et javascrit</p>
+                <span>html</span>
+                <span>css</span>
+                <span>js</span>
+            </div>
+            <div>
+                <img src="Image/f37dce61c50136e8f7ee1f5fc46d47db.jpg" alt="">
+                <h2>Gestion de taches</h2>
+                <p>Application Web pour organiser ses projets quotidiens avec stockage local. </p>
+                <span>python</span>
+                <span>flask</span>
+            </div>
+            <div>
+                <img src="Image/946eed76eb96235677f9899984cff751.jpg" alt="">
+                <h2>Blog personnel</h2>
+                <p>projet en cours de migration vers laravel pour apprendre le backend.</p>
+                <span>PHP</span>
+                <span>laravel</span>
+            </div>
+            <div>
+                <img src="Image/de0c668e53f0393c7ec8c32aa210b7c4.jpg" alt="">
+                <h2>Dashboard d'analyse</h2>
+                <p>Visualisation de données dynamique avec python et la bibliothèque Matploitlib.</p>
+                <span>python</span>
+                <span>data</span>
+            </div>
+            <div>
+                <img src="Image/b5c26de164a40e31837507d98f9f38fb.jpg" alt="">
+                <h2>Application Metéo</h2>
+                <p>une application utilisant une API en temps réel pour afficher la metéo mondiale.</p>
+                <span>javascrit</span>
+                <span>API</span>
+            </div>
+            <div>
+                <img src="Image/17542b43a54165eb637c74ddc0dc1a18.jpg" alt="">
+                <h2>Maquette mobile UI</h2>
+                <p>Conception d'une interface utilisateur moderne pour une application de fitness</p>
+                <span>figma</span>
+                <span>design</span>
+            </div>
+        </section>
+    </main>
+    <footer>
+            <p>© 2026 CHRIS. Tous droit réservés</p>
+            <nav>
+                <a href=""><img src="Image/fb505b5450d59196c788d7a6405068bf.jpg" alt="" height="50" width="50"></a>
+                <a href=""><img src="Image/66713a96b9b21dffd3a85a5d748a3171.jpg" alt="" height="50" width="50"></a>
+                <a href=""><img src="Image/b268838fe5a0c0ca504c2fc103843ae3.jpg" alt="" height="50" width="50"></a>
+            </nav>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon porfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="">Mon porfolio</a>    
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projet.html" class="active">Projet</a></li>
+                <li><a href="passions.html">Passions</a></li>
+                <li><a href="divertissement.html">Divertissement</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Mes réalisations</h1>
+        </section>
+        <section>
+            <div>
+                <img src="Image/430dee7c12965d2ee88cbde0cdea7671.jpg" alt="">
+                <h2>Site E-commerce</h2>
+                <p>une boutique en ligne complète developpé avec HTML, CSS et javascrit</p>
+                <span>html</span>
+                <span>css</span>
+                <span>js</span>
+            </div>
+            <div>
+                <img src="Image/f37dce61c50136e8f7ee1f5fc46d47db.jpg" alt="">
+                <h2>Gestion de taches</h2>
+                <p>Application Web pour organiser ses projets quotidiens avec stockage local. </p>
+                <span>python</span>
+                <span>flask</span>
+            </div>
+            <div>
+                <img src="Image/946eed76eb96235677f9899984cff751.jpg" alt="">
+                <h2>Blog personnel</h2>
+                <p>projet en cours de migration vers laravel pour apprendre le backend.</p>
+                <span>PHP</span>
+                <span>laravel</span>
+            </div>
+            <div>
+                <img src="Image/de0c668e53f0393c7ec8c32aa210b7c4.jpg" alt="">
+                <h2>Dashboard d'analyse</h2>
+                <p>Visualisation de données dynamique avec python et la bibliothèque Matploitlib.</p>
+                <span>python</span>
+                <span>data</span>
+            </div>
+            <div>
+                <img src="Image/b5c26de164a40e31837507d98f9f38fb.jpg" alt="">
+                <h2>Application Metéo</h2>
+                <p>une application utilisant une API en temps réel pour afficher la metéo mondiale.</p>
+                <span>javascrit</span>
+                <span>API</span>
+            </div>
+            <div>
+                <img src="Image/17542b43a54165eb637c74ddc0dc1a18.jpg" alt="">
+                <h2>Maquette mobile UI</h2>
+                <p>Conception d'une interface utilisateur moderne pour une application de fitness</p>
+                <span>figma</span>
+                <span>design</span>
+            </div>
+        </section>
+    </main>
+    <footer>
+            <p>© 2026 CHRIS. Tous droit réservés</p>
+            <nav>
+                <a href=""><img src="Image/fb505b5450d59196c788d7a6405068bf.jpg" alt="" height="50" width="50"></a>
+                <a href=""><img src="Image/66713a96b9b21dffd3a85a5d748a3171.jpg" alt="" height="50" width="50"></a>
+                <a href=""><img src="Image/b268838fe5a0c0ca504c2fc103843ae3.jpg" alt="" height="50" width="50"></a>
+            </nav>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon porfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="">Mon porfolio</a>    
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projet.html" class="active">Projet</a></li>
+                <li><a href="passions.html">Passions</a></li>
+                <li><a href="divertissement.html">Divertissement</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Mes réalisations</h1>
+        </section>
+        <section>
+            <div>
+                <img src="Image/430dee7c12965d2ee88cbde0cdea7671.jpg" alt="">
+                <h2>Site E-commerce</h2>
+                <p>une boutique en ligne complète developpé avec HTML, CSS et javascrit</p>
+                <span>html</span>
+                <span>css</span>
+                <span>js</span>
+            </div>
+            <div>
+                <img src="Image/f37dce61c50136e8f7ee1f5fc46d47db.jpg" alt="">
+                <h2>Gestion de taches</h2>
+                <p>Application Web pour organiser ses projets quotidiens avec stockage local. </p>
+                <span>python</span>
+                <span>flask</span>
+            </div>
+            <div>
+                <img src="Image/946eed76eb96235677f9899984cff751.jpg" alt="">
+                <h2>Blog personnel</h2>
+                <p>projet en cours de migration vers laravel pour apprendre le backend.</p>
+                <span>PHP</span>
+                <span>laravel</span>
+            </div>
+            <div>
+                <img src="Image/de0c668e53f0393c7ec8c32aa210b7c4.jpg" alt="">
+                <h2>Dashboard d'analyse</h2>
+                <p>Visualisation de données dynamique avec python et la bibliothèque Matploitlib.</p>
+                <span>python</span>
+                <span>data</span>
+            </div>
+            <div>
+                <img src="Image/b5c26de164a40e31837507d98f9f38fb.jpg" alt="">
+                <h2>Application Metéo</h2>
+                <p>une application utilisant une API en temps réel pour afficher la metéo mondiale.</p>
+                <span>javascrit</span>
+                <span>API</span>
+            </div>
+            <div>
+                <img src="Image/17542b43a54165eb637c74ddc0dc1a18.jpg" alt="">
+                <h2>Maquette mobile UI</h2>
+                <p>Conception d'une interface utilisateur moderne pour une application de fitness</p>
+                <span>figma</span>
+                <span>design</span>
+            </div>
+        </section>
+    </main>
+    <footer>
+            <p>© 2026 CHRIS. Tous droit réservés</p>
+            <nav>
+                <a href=""><img src="Image/fb505b5450d59196c788d7a6405068bf.jpg" alt="" height="50" width="50"></a>
+                <a href=""><img src="Image/66713a96b9b21dffd3a85a5d748a3171.jpg" alt="" height="50" width="50"></a>
+                <a href=""><img src="Image/b268838fe5a0c0ca504c2fc103843ae3.jpg" alt="" height="50" width="50"></a>
+            </nav>
+    </footer>
+</body>
+</html>

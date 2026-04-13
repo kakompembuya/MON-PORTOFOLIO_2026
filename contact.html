@@ -1,43 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>monportofiolo</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact - Elka Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header> 
         <div>
-            <a href="">Mon portofolio</a>
+            <a href="index.html">Mon portfolio</a>
         </div>
         <nav>
             <ul>
-
-                <li><a href="index.html" >Accueil</a></li>
+                <li><a href="index.html">Accueil</a></li>
                 <li><a href="projets.html">Projets</a></li>
                 <li><a href="passion.html">Passions</a></li>
                 <li><a href="divertissement.html">Divertissements</a></li>
-                <li><a href="contact.html"class="active">Conctat</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
-
         </nav>
     </header>
-    <main>
-        <h1>Contactez-nous</h1>
+
+    <main class="contact-container">
+        <section class="contact-intro">
+            <h1>Restons en contact</h1>
+            <p>Besoin d'un développeur ou envie de collaborer ? Laissez-moi un message.</p>
+            <div class="location-badge">
+                <i class="fa-solid fa-map-pin"></i> Lubumbashi, Haut-Katanga, RDC
+            </div>
+        </section>
+
+        <div class="contact-grid">
+            <div class="contact-card">
+                <div class="card-top">
+                    <div class="card-icon"><i class="fa-solid fa-id-card"></i></div>
+                    <h2>Mes Coordonnées</h2>
+                    <p>Disponible pour des missions freelance ou des projets innovants.</p>
+                    
+                    <div class="phone-number">
+                        <i class="fa-solid fa-phone-volume"></i> +243 991999968
+
+                    </div>
+                    
+                    <p style="font-size: 0.9rem; color: var(--gris-tres-fonce);">
+                        <i class="fa-solid fa-house-chimney"></i> Quartier Golf, Lubumbashi
+                    </p>
+                </div>
+                
+                <div class="card-bottom">
+                    <div class="social-buttons">
+                        <a href="https://wa.me/243991999968" class="btn-social wa" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i> &nbsp; WhatsApp Direct
+                        </a>
+                        <a href="#" class="btn-social tg">
+                            <i class="fa-brands fa-telegram"></i> &nbsp; Telegram
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-card">
+                <div class="card-top">
+                    <div class="card-icon"><i class="fa-solid fa-user-pen"></i></div>
+                    <h2>Laissez vos infos</h2>
+                    <p>Je vous recontacterai sur WhatsApp dans les plus brefs délais.</p>
+                </div>
+
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" name="nom" placeholder="Votre Nom complet" required>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    
+                    <div class="input-box">
+                        <input type="tel" name="whatsapp" placeholder="Votre numéro WhatsApp" required>
+                        <i class="fa-brands fa-whatsapp" style="color: #25D366;"></i>
+                    </div>
+
+                    <div class="input-box" style="margin-top: 15px;">
+                        <textarea placeholder="Votre message (optionnel)" style="width: 100%; padding: 12px; border: 1px solid var(--gris-clair); border-radius: 8px; background: var(--gris-tres-clair); font-family: inherit; outline: none; height: 80px;"></textarea>
+                    </div>
+
+                    <div class="card-bottom">
+                        <button type="submit" class="btn-glow">
+                            M'envoyer mes coordonnées
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </main>
 
-    <footer>
-        <p>
-            © 2026 Elka. Tous droits réservés.
-        </p>
+    <footer class="footer">
+        <p>© 2026 Elka. Tous droits réservés.</p>
         <div>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-x-twitter"></i>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
     </footer>
 </body>
-</html>      
+</html>

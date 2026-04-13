@@ -1,42 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>monportofiolo</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Divertissements - Mon Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header> 
         <div>
-            <a href="">Mon portofolio</a>
+            <a href="index.html">Mon portfolio</a>
         </div>
         <nav>
             <ul>
-
-                <li><a href="index.html" >Accueil</a></li>
+                <li><a href="index.html">Accueil</a></li>
                 <li><a href="projets.html">Projets</a></li>
                 <li><a href="passion.html">Passions</a></li>
-                <li><a href="divertissement.html"class="active">Divertissements</a></li>
-                <li><a href="contact.html">Conctat</a></li>
+                <li><a href="divertissement.html" class="active">Divertissements</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-git
         </nav>
     </header>
+
     <main>
-        <h1>Voici Mes Divertissements.</h1>
+        <section class="projets-container">
+            <h1>Mes Divertissements</h1>
+            
+            <div class="projets-grid">
+                
+                <article class="projet-card">
+                    <div class="projet-image">
+                        <img src="images/gaming.jpeg" alt="Jeux Vidéo">
+                    </div>
+                    <div class="projet-info">
+                        <h3>Gaming & E-sport</h3>
+                        <p>Passionné par les jeux de stratégie et de compétition, c'est mon moyen de décompresser.</p>
+                        <div class="tags">
+                            <span>Stratégie</span>
+                            <span>PC</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="#"><i class="fa-solid fa-gamepad"></i> Plateformes</a>
+                            <a href="#"><i class="fa-solid fa-trophy"></i> Palmarès</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projet-card">
+                    <div class="projet-image">
+                        <img src="images/musique.jpeg" alt="Musique">
+                    </div>
+                    <div class="projet-info">
+                        <h3>Musique & Beats</h3>
+                        <p>J'écoute de tout, mais j'ai un faible pour les productions urbaines et le lo-fi pour coder.</p>
+                        <div class="tags">
+                            <span>Lo-fi</span>
+                            <span>Spotify</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="#"><i class="fa-solid fa-headphones"></i> Playlist</a>
+                            <a href="#"><i class="fa-solid fa-music"></i> Découvrir</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projet-card">
+                    <div class="projet-image">
+                        <img src="images/movie.jpeg" alt="Cinéma">
+                    </div>
+                    <div class="projet-info">
+                        <h3>Cinéma & Séries</h3>
+                        <p>Grand amateur de science-fiction et de films d'animation japonaise pour l'inspiration visuelle.</p>
+                        <div class="tags">
+                            <span>Sci-Fi</span>
+                            <span>Anime</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="#"><i class="fa-solid fa-film"></i> Ma Liste</a>
+                            <a href="#"><i class="fa-solid fa-clapperboard"></i> Favoris</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projet-card">
+                    <div class="projet-image">
+                        <img src="images/voyage.jpeg" alt="Voyage">
+                    </div>
+                    <div class="projet-info">
+                        <h3>Voyages & Nature</h3>
+                        <p>Explorer de nouveaux endroits pour sortir de ma zone de confort et découvrir d'autres cultures.</p>
+                        <div class="tags">
+                            <span>Aventure</span>
+                            <span>Photo</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="#"><i class="fa-solid fa-map-location-dot"></i> Destinations</a>
+                            <a href="#"><i class="fa-solid fa-plane"></i> Prochain arrêt</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
     </main>
-    <footer>
-        <p>
-            © 2026 Elka. Tous droits réservés.
-        </p>
+
+    <footer class="footer">
+        <p>© 2026 Elka. Tous droits réservés.</p>
         <div>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-x-twitter"></i>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
     </footer>
 </body>
-</html>      
+</html>
